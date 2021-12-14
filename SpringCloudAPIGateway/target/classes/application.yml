@@ -1,0 +1,39 @@
+server:
+  port: 8888
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+
+spring:
+  application:
+    name: Api-gateway
+    
+  cloud:
+    gateway:
+      routes:
+      - id: search-service
+        uri: http://localhost:8060/
+        predicates:
+        - Path=/searchflights/**
+      - id: booking-service
+        uri: http://localhost:8061/
+        predicates:
+        - Path=/flightbooking/**
+      - id: checkin-service
+        uri: http://localhost:8062/
+        predicates:
+        - Path=/checkin/**
+      - id: payment-service
+        uri: http://localhost:8083/
+        predicates:
+        - Path=/payment/**
+      - id: admin-service
+        uri: http://localhost:8064/
+        predicates:
+        - Path=/admin/**
