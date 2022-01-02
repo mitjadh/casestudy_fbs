@@ -1,0 +1,64 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@syncfusion/ej2-react-calendars": "^19.2.62",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/validator": "^13.6.3",
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.0",
+    "cors": "^2.8.5",
+    "formik": "^2.2.9",
+    "moment": "^2.29.1",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-alert": "^7.0.3",
+    "react-bootstrap": "^2.0.0-beta.6",
+    "react-calendar": "^3.4.0",
+    "react-dom": "^17.0.2",
+    "react-inputs-validation": "^4.8.3",
+    "react-moment": "^1.1.1",
+    "react-notifications": "^1.7.2",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-stripe-checkout": "^2.6.3",
+    "react-validation": "^3.0.7",
+    "reactstrap": "^8.10.0",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.2.7",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest-dom": "^4.0.0",
+    "react-test-render": "^1.1.2"
+  }
+}
