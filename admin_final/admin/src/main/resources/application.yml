@@ -1,0 +1,5 @@
+resilience4j.retry:
+  instances:
+    admin:
+      maxAttempts: 3
+      waitDuration: 11000
