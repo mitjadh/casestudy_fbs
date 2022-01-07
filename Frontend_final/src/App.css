@@ -1,0 +1,140 @@
+.container{
+  background-image: url("../src/images/aeroplane.jpg") ;
+  background-size: cover;
+  /*margin: 0 auto;*/
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1500px;
+  width: 100%;
+}
+
+.form-group{
+  background-position: center;
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+  margin-left: 50px;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-group{
+  color: white;
+  align-self: center;
+
+}
+
+.checkin-group{
+  color: white;
+  margin-right: 100px;
+  align-self: center;
+}
+
+.searching-container{
+  background-position: center;
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+  margin-left: 100px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+.table-container{
+  color: white;
+  text-emphasis-color: black;
+  align-content: center;
+  font-size: larger;
+}
+
+/*final use for all*/
+.booking-container{
+  background-position: center;
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+  margin-left: 100px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+}
+
+.admincreate-container{
+    background-position: center;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+    margin-left: 80px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+.checkin-container{
+  background-position: center;
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  width: 900px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ty-container{
+  background-position: center;
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+  margin-top: 100px;
+  margin-left: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+}
+
+.checkin-declare{
+  color: white;
+}
+
+.text-payment{
+  background-position: center;
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+  margin-left: 400px;
+  margin-top: 50px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-payment{
+  text-decoration-color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
